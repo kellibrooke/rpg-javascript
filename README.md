@@ -1,8 +1,8 @@
 Set up all basic files
 Copy package and webpack content from curriculum
 
-Run npm run build
 Run npm install
+Run npm run build
 
 Intialize Jasmine using:
 $ ./node_modules/.bin/jasmine init

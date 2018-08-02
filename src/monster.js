@@ -21,11 +21,6 @@ class Monster {
     }
   }
 
-  checkLoot(player) {
-    let droppedLoot = player.roll(0, (this.items.length - 1));
-    player.items.push(this.items[droppedLoot]);
-  }
-
   monsterTurn(player) {
     this.attack(player);
     if (player.hp <= 0) {
